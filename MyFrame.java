@@ -27,12 +27,15 @@ class MyFrame extends JFrame {
         bodyPanel.add(myJButton("1", 0, 100));
         bodyPanel.add(myJButton("2", 50, 100));
         bodyPanel.add(myJButton("3", 100, 100));
+        bodyPanel.add(myJButton("test", 150, 100));
         bodyPanel.add(myJButton("4", 0, 50));
         bodyPanel.add(myJButton("5", 50, 50));
         bodyPanel.add(myJButton("6", 100, 50));
+        bodyPanel.add(myJButton("test", 150, 50));
         bodyPanel.add(myJButton("7", 0, 0));
         bodyPanel.add(myJButton("8", 50, 0));
         bodyPanel.add(myJButton("9", 100, 0));
+        bodyPanel.add(myJButton("test", 150, 0));
         //the end of 1 to 9
 
         //the frame
